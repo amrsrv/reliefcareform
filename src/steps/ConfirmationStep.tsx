@@ -97,14 +97,8 @@ export const ConfirmationStep: React.FC<ConfirmationStepProps> = ({ formData }) 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2 }}
-        className="space-y-3 pt-4"
+        className="pt-4"
       >
-        <Button 
-          onClick={() => window.open('tel:+1-555-0123', '_self')}
-          className="bg-accent hover:bg-accent/90 text-white"
-        >
-          Speak with a Care Advisor Now
-        </Button>
         <Button 
           variant="secondary"
           onClick={() => window.location.href = 'https://reliefcare.com/'}
