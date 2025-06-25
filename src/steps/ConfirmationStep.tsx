@@ -107,7 +107,7 @@ export const ConfirmationStep: React.FC<ConfirmationStepProps> = ({ formData }) 
         </Button>
         <Button 
           variant="secondary"
-          onClick={() => window.location.reload()}
+          onClick={() => window.location.href = 'https://reliefcare.com/'}
         >
           Return to Homepage
         </Button>
